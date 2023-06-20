@@ -115,6 +115,9 @@
 .mt-25{
     margin-top: 25px;
 }
+.mr-5{
+    margin-right: 5px;
+}
 .mr-10{
     margin-right: 10px;
 }
@@ -257,8 +260,8 @@
 }
 .center-flex{
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 .colum-center-flex{
     display: flex;
@@ -267,7 +270,7 @@
     justify-content: center;
 }
 .btn-shape{
-    padding: 4px 10px;
+    padding: 5px 10px;
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;

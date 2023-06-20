@@ -518,6 +518,145 @@ a{
     min-height: 140px;
 }
 /* End Latest Post */
+/* Start Social Media Stats */
+.social-media i{
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.social-media i:hover{
+    transform: rotate(5deg) scale(1.07);
+    -webkit-transform: rotate(5deg) scale(1.07);
+    -moz-transform: rotate(5deg) scale(1.07);
+    -ms-transform: rotate(5deg) scale(1.07);
+    -o-transform: rotate(5deg) scale(1.07);
+}
+.social-media .btn{
+    cursor: pointer;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.social-media .btn:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+@media (max-width: 767px){
+    .social-media i {
+        margin-right: 10px;
+        width: 50px;
+        height: 50px;
+    }
+    .social-media .btn {
+        margin-right: 10px;
+    }
+}
+
+.social-media .twitter{
+    background-color: rgb(29 161 242 / 20%);
+    color: #1DA1F2;
+}
+.social-media .twitter i,
+.social-media .twitter .btn{
+    background-color: #1DA1F2;
+}
+
+.social-media .facebook{
+    background-color: rgb(24 119 242 / 20%);
+    color: #1877F2;
+}
+.social-media .facebook i,
+.social-media .facebook .btn{
+    background-color: #1877F2;
+}
+
+.social-media .youtube{
+    background-color: rgb(205 32 31 / 20%);
+    color: #CD201F;
+}
+.social-media .youtube i,
+.social-media .youtube .btn{
+    background-color: #CD201F;
+}
+
+.social-media .linkedin{
+    background-color: rgb(10 102 194 / 20%);
+    color: #0A66C2;
+}
+.social-media .linkedin i,
+.social-media .linkedin .btn{
+    background-color: #0A66C2;
+}
+/* End Social Media Stats */
+/* Start Projects Table */
+.project .responsive-table{
+    overflow-x: auto;
+}
+.project table {
+    min-width: 1000px;
+    border-collapse: collapse;
+}
+.project thead td {
+    background-color: #eee;
+    color: black;
+    font-weight: bold;
+}
+.project thead td:not(:last-child){
+    border-right: white 1px solid;
+}
+.project table td {
+    padding: 15px;
+}
+.project tbody td {
+    border-bottom: 1px #eee solid;
+    border-left: 1px #eee solid;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.project tbody tr td:last-child {
+    border-right: 1px #eee solid;
+}
+.project tbody tr:hover td{
+    background-color: #efefefa4;
+} 
+.project table img{
+    width: 32px;
+    height: 32px;
+    padding: 2px;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.project tbody tr td img:not(:first-child){
+    margin-left: -20px;
+}
+/* End Projects Table */
+
+
+
+
+
+
+
 /* Start Animation */
 @keyframes change {
     from {

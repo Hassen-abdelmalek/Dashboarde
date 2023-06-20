@@ -5,15 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/framework.css">
     <link rel="stylesheet" href="css/master.css">
-    <link rel="stylesheet" href="css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
 <body>
-
     <div class="page d-flex">
         <!-- Start Sidebar -->
         <div class="sidebar bg-white p-20 p-relative">
@@ -397,7 +396,7 @@
                 <!-- End Latest Uploads   -->
                 <!-- Start last Project Progress  -->
                 <div class="last-project bg-white p-20 rad-10 txt-c-mobile p-relative">
-                    <h2 class="m-0 mb-20">last Project Progress</h2>
+                    <h2 class="m-0 mb-20">Last Project Progress</h2>
                     <ul class="p-relative m-0">
                         <li class="mt-25 d-flex align-center done">Got The Project</li>
                         <li class="mt-25 d-flex align-center done">Start The Project</li>
@@ -443,7 +442,7 @@
                 <!-- End Reminders  -->
                 <!-- Start Latest Post -->
                 <div class="latest-post bg-white p-20 rad-10">
-                    <h2 class="m-0 mb-20">Latest Post</h2>
+                    <h2 class="m-0 mb-20 txt-c-mobile">Latest Post</h2>
                     <div class="d-flex align-center">
                         <img src="image/avatar.png" alt="">
                         <div class="ml-20">
@@ -455,13 +454,156 @@
                         repudiandae animi! Minus incidunt fugit dignissimos in ratione natus,
                          beatae alias officiis! Dolore praesentium repudiandae sed cupiditate
                           possimus autem accusantium quidem!</p>
-                    <div class="d-flex space-btween c-grey">
-                        <span><i class="fa-regular fa-heart"></i>1.9K</span>
-                        <span><i class="fa-regular fa-comments"></i>495</span>
+                    <div class="icons d-flex space-btween c-grey">
+                        <span><i class="fa-regular fa-heart mr-5"></i>1.9K</span>
+                        <span><i class="fa-regular fa-comments mr-5"></i>495</span>
                     </div>
                 </div>
                 <!-- End Latest Post -->
+                <!-- Start Social Media Stats -->
+                <div class="social-media bg-white p-20 rad-10">
+                    <h2 class="m-0 mb-20 txt-c-mobile">Social Media Stats</h2>
+                    <ul class="m-0">
+                        <li class="twitter between-flex mb-10 p-relative">
+                            <div class="d-flex align-center">
+                                <i class="fa-brands fa-twitter mr-15 c-white"></i>
+                                <span class="">96K Followers</span>
+                            </div>
+                            <div class="btn btn-shape bg-blue c-white mr-20">Follow</div>
+                        </li>
+                        <li class="facebook between-flex mb-10 p-relative">
+                            <div class="d-flex align-center">
+                                <i class="fa-brands fa-facebook-f mr-15 c-white"></i>
+                                <span class="">7.3M Like</span>
+                            </div>
+                            <div class="btn btn-shape bg-blue c-white mr-20">Like</div>
+                        </li>
+                        <li class="youtube between-flex mb-10 p-relative">
+                            <div class="d-flex align-center">
+                                <i class="fa-brands fa-youtube mr-15 c-white"></i>
+                                <span class="">2M Subs</span>
+                            </div>
+                            <div class="btn btn-shape bg-blue c-white mr-20">Subscribe</div>
+                        </li>
+                        <li class="linkedin between-flex p-relative">
+                            <div class="d-flex align-center">
+                                <i class="fa-brands fa-linkedin mr-15 c-white"></i>
+                                <span class="">70K Followers</span>
+                            </div>
+                            <div class="btn btn-shape c-white mr-20">Follow</div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End Social Media Stats -->
             </div>
+            <!-- Start Projects Table -->
+            <div class="project bg-white p-20 m-20">
+                <h2 class="m-0 mb-20 txt-c-mobile">Projects</h2>
+                <div class="responsive-table">
+                    <table class="fs-15 w-full txt-c">
+                        <thead>
+                            <tr>
+                                <td>Name</td>
+                                <td>Finish Date</td>
+                                <td>Clein</td>
+                                <td>Price</td>
+                                <td>Team</td>
+                                <td>Status</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Hassen App</td>
+                                <td>14 Dec 2024</td>
+                                <td>Hassen</td>
+                                <td>$7000</td>
+                                <td>
+                                    <img src="image/team-01.png" alt="">
+                                    <img src="image/team-02.png" alt="">
+                                    <img src="image/team-03.png" alt="">
+                                    <img src="image/team-04.png" alt="">
+                                </td>
+                                <td>
+                                    <span class="label btn-shape c-white bg-orange">Pending</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Elzero Shop</td>
+                                <td>09 out 2024</td>
+                                <td>Elzero</td>
+                                <td>$3500</td>
+                                <td>
+                                    <img src="image/team-01.png" alt="">
+                                    <img src="image/team-02.png" alt="">
+                                    <img src="image/team-04.png" alt="">
+                                </td>
+                                <td>
+                                    <span class="label btn-shape c-white bg-blue">Pending</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Bose Website</td>
+                                <td>29 jun 2022</td>
+                                <td>Bose</td>
+                                <td>$1500</td>
+                                <td>
+                                    <img src="image/team-03.png" alt="">
+                                    <img src="image/team-04.png" alt="">
+                                </td>
+                                <td>
+                                    <span class="label btn-shape c-white bg-red">Pending</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Wajdi App</td>
+                                <td>17 Nov 2024</td>
+                                <td>Wajdi</td>
+                                <td>$2500</td>
+                                <td>
+                                    <img src="image/team-01.png" alt="">
+                                    <img src="image/team-04.png" alt="">
+                                </td>
+                                <td>
+                                    <span class="label btn-shape c-white bg-green">Pending</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Hicham Website</td>
+                                <td>01 oct 2021</td>
+                                <td>Hicham</td>
+                                <td>$6000</td>
+                                <td>
+                                    <img src="image/team-01.png" alt="">
+                                    <img src="image/team-02.png" alt="">
+                                    <img src="image/team-04.png" alt="">
+                                    <img src="image/team-03.png" alt="">
+                                </td>
+                                <td>
+                                    <span class="label btn-shape c-white bg-blue">Pending</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Ahmed Shop</td>
+                                <td>11 Fev 2024</td>
+                                <td>Ahmed</td>
+                                <td>$700</td>
+                                <td>
+                                    <img src="image/team-02.png" alt="">
+                                    <img src="image/team-01.png" alt="">
+                                    <img src="image/team-03.png" alt="">
+                                    <img src="image/team-04.png" alt="">
+                                    <img src="image/team-01.png" alt="">
+                                </td>
+                                <td>
+                                    <span class="label btn-shape c-white bg-orange">Pending</span>
+                                </td>
+                            
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- End Projects Table -->
         </div>
     </div>
 </body>
