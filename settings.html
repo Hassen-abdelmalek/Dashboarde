@@ -29,7 +29,8 @@
                         </a>
                     </li>
                     <li>
-                        <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+                        <a class="active d-flex align-center fs-14 c-black rad-6 p-10"
+                            href="settings.html">
                             <i class="fa-solid fa-gear fa-fw"></i>
                             <span>Settings</span>
                         </a>
@@ -41,7 +42,8 @@
                         </a>
                     </li>
                     <li>
-                        <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+                        <a class="d-flex align-center fs-14 c-black rad-6 p-10"
+                            href="projects.html">
                             <i class="fa-solid fa-diagram-project fa-fw"></i>
                             <span>Projects</span>
                         </a>
@@ -94,21 +96,116 @@
                     <div class="site-control bg-white p-20 rad-10">
                         <div class="txt-c-mobile">
                             <h2 class="m-0">Site Control</h2>
-                            <p class="mt-10 mb-20 c-grey fs-15">Control The Website If There Is Maintenance</p>
+                            <p class="mt-10 mb-20 c-grey fs-15">Control The Website If There Is
+                                Maintenance</p>
                         </div>
                         <div class='m-0 between-flex'>
                             <div class=''>
                                 <h4 class='m-0'>Website Control</h4>
-                                <p class='m-0 mt-5 c-grey fs-14'>Open/Close Website And The Reason</p>
+                                <p class='m-0 mt-5 c-grey fs-13'>Open/Close Website And The Reason
+                                </p>
                             </div>
                             <label>
                                 <input class='toggle-checkbox' type="checkbox" checked>
                                 <div class='toggle-switch'></div>
                             </label>
                         </div>
-                        <textarea class='w-full rad-6 p-10 mt-20 c-grey' placeholder='Close Massege Content'></textarea>
+                        <textarea class='w-full rad-6 p-10 mt-20 c-grey'
+                            placeholder='Close Massege Content'></textarea>
                     </div>
                     <!-- End Site Control -->
+                    <!-- Start General Info  -->
+                    <div class="general-info bg-white p-20 rad-10">
+                        <h2 class="m-0">General Info</h2>
+                        <p class="mt-10 mb-20 c-grey fs-15">General Information About Your Account
+                        </p>
+                        <div>
+
+                            <div>
+                                <label class='mb-10 c-grey d-block' for='first'>First Name</label>
+                                <input class='w-full b-none rad-6 fs-13 p-10 c-grey' type="text"
+                                    placeholder='First Name' id='first'>
+                            </div>
+
+                            <div>
+                                <label class='mt-10 mb-10 c-grey d-block' for='last'>Last
+                                    Name</label>
+                                <input class='w-full b-none rad-6 fs-13 p-10 c-grey' type="text"
+                                    placeholder='Last Name' id='last'>
+                            </div>
+
+                            <div>
+                                <label class='mt-10 mb-10 c-grey d-block' for='email'>Email</label>
+                                <div class='email between-flex'>
+                                    <input class='b-none rad-6 fs-13 p-10 c-grey bg-eee'
+                                        type="email" value='hassen@gmail.com' id='email' disabled>
+                                    <span class='ml-10 btn-shape c-blue transition'>Change</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- End General Info  -->
+                    <!-- Start Security Info -->
+                    <div class="security-info bg-white p-20 rad-10">
+                        <h2 class="m-0">Security Info</h2>
+                        <p class="mt-10 mb-5 c-grey fs-15">Security Information About Your Account
+                        </p>
+                        <div class='password-info between-flex'>
+                            <div class='pb-20 pt-20'>
+                                <h4 class='m-0 mb-10'>Password</h4>
+                                <p class='m-0 c-grey fs-13'>Last Change 17/04/2022</p>
+                            </div>
+                            <div class='btn btn-shape bg-blue c-white transition'>Change</div>
+                        </div>
+                        <div class='password-info between-flex pb-20 pt-20'>
+                            <div>
+                                <h4 class='m-0 mb-10'>Two-Factor Authentication</h4>
+                                <p class='m-0 c-grey fs-13'>Enable/Disable The Feature</p>
+                            </div>
+                            <label>
+                                <input class='toggle-checkbox' type="checkbox" checked>
+                                <div class='toggle-switch'></div>
+                            </label>
+                        </div>
+                        <div class='between-flex pt-20 pb-20'>
+                            <div>
+                                <h4 class='m-0 mb-10'>Devices</h4>
+                                <p class='m-0 c-grey fs-13'>Check The Login Devices List</p>
+                            </div>
+                            <div class='btn-shape bg-eee'>Devices</div>
+                        </div>
+                    </div>
+                    <!-- End Security Info -->
+                    <!-- Start Social Info -->
+                    <div class="social-info bg-white p-20 rad-10">
+                        <h2 class="m-0">Socail Info</h2>
+                        <p class="mt-10 mb-5 c-grey fs-15 mb-20">Social media Information
+                        </p>
+                        <div class='boxes '>
+                            <div class='box mb-20 d-flex align-center rad-6 bg-eee c-grey'>
+                                <i class="fa-brands fa-twitter b-none center-flex"></i>
+                                <input class='b-none p-10 bg-eee' type="text"
+                                    placeholder='Twitter UserName'>
+                            </div>
+                            <div class='box mb-20 d-flex align-center rad-6 bg-eee c-grey'>
+                                <i class="fa-brands fa-facebook-f b-none center-flex"></i>
+                                <input class='b-none p-10 bg-eee' type="text"
+                                    placeholder='Facebook UserName'>
+                            </div>
+                            <div class='box mb-20 d-flex align-center rad-6 bg-eee c-grey'>
+                                <i class="fa-brands fa-linkedin b-none center-flex"></i>
+                                <input class='b-none p-10 bg-eee' type="text"
+                                    placeholder='Linkedin UserName'>
+                            </div>
+                            <div class='box d-flex align-center rad-6 bg-eee c-grey'>
+                                <i class="fa-brands fa-youtube b-none center-flex"></i>
+                                <input class='b-none p-10 bg-eee' type="text"
+                                    placeholder='Youtube UserName'>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Social Info -->
                 </div>
                 <!-- End Setting page -->
             </div>
